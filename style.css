@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* background-color: green; */
+  padding: 20px 100px;
+}
+
+.banner__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo,
+.footer__logo {
+  color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.header__nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav ul a,
+.banner__right a {
+  margin: 0 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.header__nav ul a:hover {
+  color: green;
+}
+
+.header__nav ul {
+  list-style: none;
+}
+.banner__right {
+  background-color: green;
+  width: 20%;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 15px;
+}
+
+.banner__right a {
+  color: #fff;
+}
+
+.banner__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body__text {
+  width: 50%;
+}
+
+.text__heading {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.text__heading h3 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+}
+
+.text__desc {
+  width: 70%;
+}
+
+.text__btn {
+  background-color: green;
+  width: 30%;
+  padding: 10px 0;
+  border-radius: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text__btn a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.offers h3,
+.review__text h3 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.offers__foods {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers__foods .food {
+  width: 40%;
+  height: 15rem;
+}
+
+.offers__foods .food img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review__text h3 {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.review__text p {
+  width: 80%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  height: 30vh;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.footer__links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer__links ul a {
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.footer__links ul a li {
+  margin: 0 30px;
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: bold;
+}
